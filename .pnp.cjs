@@ -30,6 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@fluentui/web-components", "npm:2.5.12"],\
             ["@tauri-apps/cli", "npm:1.2.3"],\
+            ["rome", "npm:12.0.0"],\
             ["solid-js", "npm:1.6.16"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
             ["vite", "virtual:e89a60c7c352dd76fb01ae57e884900eea222b691259f2ab7c26f672c7da9c9f0f96d0e37eb17a9a95cd0e05fb026d04c1efae09031c0b70564ac5dea54942f5#npm:4.2.1"],\
@@ -843,6 +844,60 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@npmcli/move-file", "npm:2.0.1"],\
             ["mkdirp", "npm:1.0.4"],\
             ["rimraf", "npm:3.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@rometools/cli-darwin-arm64", [\
+        ["npm:12.0.0", {\
+          "packageLocation": "./.yarn/unplugged/@rometools-cli-darwin-arm64-npm-12.0.0-361db2eef0/node_modules/@rometools/cli-darwin-arm64/",\
+          "packageDependencies": [\
+            ["@rometools/cli-darwin-arm64", "npm:12.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@rometools/cli-darwin-x64", [\
+        ["npm:12.0.0", {\
+          "packageLocation": "./.yarn/unplugged/@rometools-cli-darwin-x64-npm-12.0.0-5b6ada274f/node_modules/@rometools/cli-darwin-x64/",\
+          "packageDependencies": [\
+            ["@rometools/cli-darwin-x64", "npm:12.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@rometools/cli-linux-arm64", [\
+        ["npm:12.0.0", {\
+          "packageLocation": "./.yarn/unplugged/@rometools-cli-linux-arm64-npm-12.0.0-c5fe9b7a41/node_modules/@rometools/cli-linux-arm64/",\
+          "packageDependencies": [\
+            ["@rometools/cli-linux-arm64", "npm:12.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@rometools/cli-linux-x64", [\
+        ["npm:12.0.0", {\
+          "packageLocation": "./.yarn/unplugged/@rometools-cli-linux-x64-npm-12.0.0-cfd36d5a62/node_modules/@rometools/cli-linux-x64/",\
+          "packageDependencies": [\
+            ["@rometools/cli-linux-x64", "npm:12.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@rometools/cli-win32-arm64", [\
+        ["npm:12.0.0", {\
+          "packageLocation": "./.yarn/unplugged/@rometools-cli-win32-arm64-npm-12.0.0-b5b7e2e2d2/node_modules/@rometools/cli-win32-arm64/",\
+          "packageDependencies": [\
+            ["@rometools/cli-win32-arm64", "npm:12.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@rometools/cli-win32-x64", [\
+        ["npm:12.0.0", {\
+          "packageLocation": "./.yarn/unplugged/@rometools-cli-win32-x64-npm-12.0.0-980cdf19c2/node_modules/@rometools/cli-win32-x64/",\
+          "packageDependencies": [\
+            ["@rometools/cli-win32-x64", "npm:12.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2172,6 +2227,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["rome", [\
+        ["npm:12.0.0", {\
+          "packageLocation": "./.yarn/unplugged/rome-npm-12.0.0-ff902ab2ef/node_modules/rome/",\
+          "packageDependencies": [\
+            ["rome", "npm:12.0.0"],\
+            ["@rometools/cli-darwin-arm64", "npm:12.0.0"],\
+            ["@rometools/cli-darwin-x64", "npm:12.0.0"],\
+            ["@rometools/cli-linux-arm64", "npm:12.0.0"],\
+            ["@rometools/cli-linux-x64", "npm:12.0.0"],\
+            ["@rometools/cli-win32-arm64", "npm:12.0.0"],\
+            ["@rometools/cli-win32-x64", "npm:12.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["safe-buffer", [\
         ["npm:5.2.1", {\
           "packageLocation": "./.yarn/cache/safe-buffer-npm-5.2.1-3481c8aa9b-b99c4b41fd.zip/node_modules/safe-buffer/",\
@@ -2567,6 +2637,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["vite-template-solid", "workspace:."],\
             ["@fluentui/web-components", "npm:2.5.12"],\
             ["@tauri-apps/cli", "npm:1.2.3"],\
+            ["rome", "npm:12.0.0"],\
             ["solid-js", "npm:1.6.16"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
             ["vite", "virtual:e89a60c7c352dd76fb01ae57e884900eea222b691259f2ab7c26f672c7da9c9f0f96d0e37eb17a9a95cd0e05fb026d04c1efae09031c0b70564ac5dea54942f5#npm:4.2.1"],\

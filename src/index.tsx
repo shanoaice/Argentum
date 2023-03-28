@@ -1,5 +1,6 @@
 /* @refresh reload */
 import { render } from 'solid-js/web';
+import {} from '@fluentui/web-components';
 
 import './index.css';
 import App from './App';
