@@ -520,6 +520,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fluentui/web-components@npm:^2.5.12":
+  version: 2.5.12
+  resolution: "@fluentui/web-components@npm:2.5.12"
+  dependencies:
+    "@microsoft/fast-colors": ^5.3.0
+    "@microsoft/fast-element": ^1.11.0
+    "@microsoft/fast-foundation": ^2.47.0
+    "@microsoft/fast-web-utilities": ^5.4.0
+    tslib: ^2.1.0
+  checksum: 2dff2256f4e6c5b38ddf55ea8ceb12a2c20e1f305493961fe0c9ea4cfdc304f0f854a7c60684579abc372ee013312b8f291d8e2d6ad2382b4526632c85007efb
+  languageName: node
+  linkType: hard
+
 "@gar/promisify@npm:^1.1.3":
   version: 1.1.3
   resolution: "@gar/promisify@npm:1.1.3"
@@ -576,6 +589,41 @@ __metadata:
     "@jridgewell/resolve-uri": 3.1.0
     "@jridgewell/sourcemap-codec": 1.4.14
   checksum: 9d703b859cff5cd83b7308fd457a431387db5db96bd781a63bf48e183418dd9d3d44e76b9e4ae13237f6abeeb25d739ec9215c1d5bfdd08f66f750a50074a339
+  languageName: node
+  linkType: hard
+
+"@microsoft/fast-colors@npm:^5.3.0":
+  version: 5.3.1
+  resolution: "@microsoft/fast-colors@npm:5.3.1"
+  checksum: ff87f402faadb4b5aeee3d27762566c11807f927cd4012b8bbc7f073ca68de0e2197f95330ff5dfd7038f4b4f0e2f51b11feb64c5d570f5c598d37850a5daf60
+  languageName: node
+  linkType: hard
+
+"@microsoft/fast-element@npm:^1.11.0":
+  version: 1.11.0
+  resolution: "@microsoft/fast-element@npm:1.11.0"
+  checksum: 1fab25a7956cd40e0b51d7bbd01b57e620e140634abac83826b51ceac5b5c2ac4b1343e1e2253bf319a8f6f7a8391a2465e3b88d8a906029b17e05a6dfdd462c
+  languageName: node
+  linkType: hard
+
+"@microsoft/fast-foundation@npm:^2.47.0":
+  version: 2.47.0
+  resolution: "@microsoft/fast-foundation@npm:2.47.0"
+  dependencies:
+    "@microsoft/fast-element": ^1.11.0
+    "@microsoft/fast-web-utilities": ^5.4.1
+    tabbable: ^5.2.0
+    tslib: ^1.13.0
+  checksum: 065a70bf7399f068a876c9b78d9c2e3474fe764cb9865635a55474b47020329f6f0a7f5e2aba6abe9076e7fe6868028852b7460e6c099d5b669fa5c4a8613762
+  languageName: node
+  linkType: hard
+
+"@microsoft/fast-web-utilities@npm:^5.4.0, @microsoft/fast-web-utilities@npm:^5.4.1":
+  version: 5.4.1
+  resolution: "@microsoft/fast-web-utilities@npm:5.4.1"
+  dependencies:
+    exenv-es6: ^1.1.1
+  checksum: 303e87847f962944f474e3716c3eb305668243916ca9e0719e26bb9a32346144bc958d915c103776b3e552cea0f0f6233f839fad66adfdf96a8436b947288ca7
   languageName: node
   linkType: hard
 
@@ -1146,6 +1194,13 @@ __metadata:
   version: 1.0.5
   resolution: "escape-string-regexp@npm:1.0.5"
   checksum: 6092fda75c63b110c706b6a9bfde8a612ad595b628f0bd2147eea1d3406723020810e591effc7db1da91d80a71a737a313567c5abb3813e8d9c71f4aa595b410
+  languageName: node
+  linkType: hard
+
+"exenv-es6@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "exenv-es6@npm:1.1.1"
+  checksum: 7f2aa12025e6f06c48dc286f380cf3183bb19c6017b36d91695034a3e5124a7235c4f8ff24ca2eb88ae801322f0f99605cedfcfd996a5fcbba7669320e2a448e
   languageName: node
   linkType: hard
 
@@ -1975,6 +2030,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tabbable@npm:^5.2.0":
+  version: 5.3.3
+  resolution: "tabbable@npm:5.3.3"
+  checksum: 1aa56e1bb617cc10616c407f4e756f0607f3e2d30f9803664d70b85db037ca27e75918ed1c71443f3dc902e21dc9f991ce4b52d63a538c9b69b3218d3babcd70
+  languageName: node
+  linkType: hard
+
 "tar@npm:^6.1.11, tar@npm:^6.1.2":
   version: 6.1.13
   resolution: "tar@npm:6.1.13"
@@ -1993,6 +2055,20 @@ __metadata:
   version: 2.0.0
   resolution: "to-fast-properties@npm:2.0.0"
   checksum: be2de62fe58ead94e3e592680052683b1ec986c72d589e7b21e5697f8744cdbf48c266fa72f6c15932894c10187b5f54573a3bcf7da0bfd964d5caf23d436168
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^1.13.0":
+  version: 1.14.1
+  resolution: "tslib@npm:1.14.1"
+  checksum: dbe628ef87f66691d5d2959b3e41b9ca0045c3ee3c7c7b906cc1e328b39f199bb1ad9e671c39025bd56122ac57dfbf7385a94843b1cc07c60a4db74795829acd
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2.1.0":
+  version: 2.5.0
+  resolution: "tslib@npm:2.5.0"
+  checksum: ae3ed5f9ce29932d049908ebfdf21b3a003a85653a9a140d614da6b767a93ef94f460e52c3d787f0e4f383546981713f165037dc2274df212ea9f8a4541004e1
   languageName: node
   linkType: hard
 
@@ -2084,6 +2160,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vite-template-solid@workspace:."
   dependencies:
+    "@fluentui/web-components": ^2.5.12
     "@tauri-apps/cli": ^1.2.3
     solid-js: ^1.6.10
     typescript: ^4.9.5

@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@fluentui/web-components", "npm:2.5.12"],\
             ["@tauri-apps/cli", "npm:1.2.3"],\
             ["solid-js", "npm:1.6.16"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
@@ -701,6 +702,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@fluentui/web-components", [\
+        ["npm:2.5.12", {\
+          "packageLocation": "./.yarn/cache/@fluentui-web-components-npm-2.5.12-a5cd21c20e-2dff2256f4.zip/node_modules/@fluentui/web-components/",\
+          "packageDependencies": [\
+            ["@fluentui/web-components", "npm:2.5.12"],\
+            ["@microsoft/fast-colors", "npm:5.3.1"],\
+            ["@microsoft/fast-element", "npm:1.11.0"],\
+            ["@microsoft/fast-foundation", "npm:2.47.0"],\
+            ["@microsoft/fast-web-utilities", "npm:5.4.1"],\
+            ["tslib", "npm:2.5.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@gar/promisify", [\
         ["npm:1.1.3", {\
           "packageLocation": "./.yarn/cache/@gar-promisify-npm-1.1.3-ac1a325862-4059f790e2.zip/node_modules/@gar/promisify/",\
@@ -765,6 +780,47 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jridgewell/trace-mapping", "npm:0.3.17"],\
             ["@jridgewell/resolve-uri", "npm:3.1.0"],\
             ["@jridgewell/sourcemap-codec", "npm:1.4.14"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@microsoft/fast-colors", [\
+        ["npm:5.3.1", {\
+          "packageLocation": "./.yarn/cache/@microsoft-fast-colors-npm-5.3.1-723633f3f7-ff87f402fa.zip/node_modules/@microsoft/fast-colors/",\
+          "packageDependencies": [\
+            ["@microsoft/fast-colors", "npm:5.3.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@microsoft/fast-element", [\
+        ["npm:1.11.0", {\
+          "packageLocation": "./.yarn/cache/@microsoft-fast-element-npm-1.11.0-dc8b35f184-1fab25a795.zip/node_modules/@microsoft/fast-element/",\
+          "packageDependencies": [\
+            ["@microsoft/fast-element", "npm:1.11.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@microsoft/fast-foundation", [\
+        ["npm:2.47.0", {\
+          "packageLocation": "./.yarn/cache/@microsoft-fast-foundation-npm-2.47.0-83557ad034-065a70bf73.zip/node_modules/@microsoft/fast-foundation/",\
+          "packageDependencies": [\
+            ["@microsoft/fast-foundation", "npm:2.47.0"],\
+            ["@microsoft/fast-element", "npm:1.11.0"],\
+            ["@microsoft/fast-web-utilities", "npm:5.4.1"],\
+            ["tabbable", "npm:5.3.3"],\
+            ["tslib", "npm:1.14.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@microsoft/fast-web-utilities", [\
+        ["npm:5.4.1", {\
+          "packageLocation": "./.yarn/cache/@microsoft-fast-web-utilities-npm-5.4.1-cea4476116-303e87847f.zip/node_modules/@microsoft/fast-web-utilities/",\
+          "packageDependencies": [\
+            ["@microsoft/fast-web-utilities", "npm:5.4.1"],\
+            ["exenv-es6", "npm:1.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1378,6 +1434,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/escape-string-regexp-npm-1.0.5-3284de402f-6092fda75c.zip/node_modules/escape-string-regexp/",\
           "packageDependencies": [\
             ["escape-string-regexp", "npm:1.0.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["exenv-es6", [\
+        ["npm:1.1.1", {\
+          "packageLocation": "./.yarn/cache/exenv-es6-npm-1.1.1-4b6e012590-7f2aa12025.zip/node_modules/exenv-es6/",\
+          "packageDependencies": [\
+            ["exenv-es6", "npm:1.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2297,6 +2362,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["tabbable", [\
+        ["npm:5.3.3", {\
+          "packageLocation": "./.yarn/cache/tabbable-npm-5.3.3-baf35cffe9-1aa56e1bb6.zip/node_modules/tabbable/",\
+          "packageDependencies": [\
+            ["tabbable", "npm:5.3.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["tar", [\
         ["npm:6.1.13", {\
           "packageLocation": "./.yarn/cache/tar-npm-6.1.13-3234e72781-8a278bed12.zip/node_modules/tar/",\
@@ -2317,6 +2391,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/to-fast-properties-npm-2.0.0-0dc60cc481-be2de62fe5.zip/node_modules/to-fast-properties/",\
           "packageDependencies": [\
             ["to-fast-properties", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tslib", [\
+        ["npm:1.14.1", {\
+          "packageLocation": "./.yarn/cache/tslib-npm-1.14.1-102499115e-dbe628ef87.zip/node_modules/tslib/",\
+          "packageDependencies": [\
+            ["tslib", "npm:1.14.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:2.5.0", {\
+          "packageLocation": "./.yarn/cache/tslib-npm-2.5.0-bb364efebd-ae3ed5f9ce.zip/node_modules/tslib/",\
+          "packageDependencies": [\
+            ["tslib", "npm:2.5.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2475,6 +2565,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["vite-template-solid", "workspace:."],\
+            ["@fluentui/web-components", "npm:2.5.12"],\
             ["@tauri-apps/cli", "npm:1.2.3"],\
             ["solid-js", "npm:1.6.16"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
