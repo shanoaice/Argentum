@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "@fluentui/web-components": "^2.5.12",
+    "@linaria/core": "^4.2.8",
+    "@linaria/vite": "^4.2.9",
     "solid-js": "^1.6.10"
   }
 }
