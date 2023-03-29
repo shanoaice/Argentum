@@ -1,6 +1,6 @@
 /* @refresh reload */
 import { render } from 'solid-js/web';
-import {} from '@fluentui/web-components';
+import { provideFluentDesignSystem, allComponents } from '@fluentui/web-components';
 
 import './index.css';
 import App from './App';
@@ -13,4 +13,7 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
   );
 }
 
+provideFluentDesignSystem().register(allComponents)
+
+// rome-ignore lint/style/noNonNullAssertion: SolidJS design
 render(() => <App />, root!);
