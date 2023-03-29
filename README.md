@@ -1,34 +1,27 @@
-## Usage
-
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
-
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
-
-```bash
-$ npm install # or pnpm install or yarn install
-```
-
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+# Argentum
 
 ## Available Scripts
 
+> This project uses Yarn 3 PnP, so please have yarn installed.
+> If not, you can run `npm i -g yarn` to install.
+
 In the project directory, you can run:
 
-### `npm dev` or `npm start`
+### `yarn run dev-web`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 
-### `npm run build`
+### `yarn run build-web`
 
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
+Builds the web app for production to the `dist` folder.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### `yarn run dev`
 
-## Deployment
+Runs the Vite server and Tauri in the development mode. 
 
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+### `yarn run build`
+
+Builds the web and Tauri code for deployment.
